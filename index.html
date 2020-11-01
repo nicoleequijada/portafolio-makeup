@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<!-- idioma del html    -->
+<html lang="es">
+  <head>
+    <!-- caracteres especiales  -->
+    <meta charset="utf-8">
+    <title>By NicoMakeup</title>
+    <!-- icono navegador  -->
+    <link rel="icon" type="imagen/png" href="imagen/Nicole-logo.png"/>
+    <!-- estilos css -->
+    <link href="https://fonts.googleapis.com/css2?family=Bellota:wght@700&family=Caveat&family=Dancing+Script:wght@700&family=Tajawal:wght@500&display=swap" rel="stylesheet">
+    <!--<link rel="stylesheet" href="estilos.css/estilos2.css" media="screen and (max-width:768px)">-->
+    <link rel="stylesheet"  href="estilos.css/estilos.css"/> <!-- aplicar el responsive con una hoja de estilo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <i class="icon-menu burger-button" id="burger-menu"></i>
+    <header class="header">
+      <div class="container">
+        <figure class="logo">
+          <img src="imagen/Nicole-logo.png" class="imagen-logo" height="70" width="70"  alt="Logo"/>
+        </figure>
+      </div>
+        <!-- enlaces de nav-->
+        <nav class="menu">
+          <ol> <!-- orden en lista-->
+            <li>
+              <!-- enlaces de link -->
+              <a class="link" href="#Portafolio"><strong>Portafolio</strong></a>
+            </li>
+            <li>
+              <a class="link" href="#eventos"><strong>Experiencia</strong></a>
+            </li>
+            <li>
+              <a class="link" href="#contacto"><strong>Trabajemos juntos</strong></a>
+            </li>
+          </ol>
+        </nav>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <h1>
+          Hola! Soy <strong>Nicole Quijada</strong>, <br/> apasionada por el <strong>makeup!!</strong>
+          <br/> en este blog aprenderas.
+        </h1>
+        <img class="hero-image" src="imagen/header.jpg" height="280 " width="260" >
+      </div>
+    </section>
+    <section id="Portafolio" class="portfolio">
+      <div class="container">
+        <h2> Portafolio (Proyectos destacados)</h2>
+      <article class="project">
+        <div class="project-details">
+          <h3 class="project-title">maquillajes artisticos</h3>
+          <h6 class="project-course">Nicole Quijada/ Maria Bracho</h6>
+          <p class="project-date"><small><strong>Fecha:</strong>30/09/2019</small></p>
+          <p class="project-url"><small><strong>Puedes verlo en: </strong>https://www.instagram.com/nicoleequijada/</small></p>
+          <p class="project-description">Este maquillaje fue inspirado en lo fantastico del universo,
+            refleja un hermoso misterio a través de tonos azules oscuros y estrellas brillantes dibujadas.</p>
+          </div>
+          <figure class="project-imageContainer">
+            <img class="project-image" src="imagen/universo.jpeg"  alt="proyecto universo" width="300px" />
+          </figure>
+        </article>
+        <article class="project">
+          <div class="project-details">
+            <h3 class="project-title">Cuidado de la piel</h3>
+            <h6 class="project-course">Nicole Quijada/ Maria Bracho</h6>
+            <p class="project-date"><small><strong>Fecha:</strong>15/09/2019</small></p>
+            <p class="project-url"><small><strong>Puedes verlo en: </strong>https://www.instagram.com/nicoleequijada/</small></p>
+            <p class="project-description">Siguiendo unos hábitos muy fáciles de manera diaria se pueden prevenir muchas sorpresas:
+                “fundamentalmente, nuestro cuidado diario de la piel debe responder a tres pilares básicos: la hidratación, ingerir alimentos saludables
+                 y tener una eliminación correcta de las toxinas”.</p>
+            </div>
+            <figure class="project-imageContainer">
+              <img class="project-image" src="imagen/project-image.jpeg"  alt="Cuidado de la piel" width="300px" />
+            </figure>
+          </article>
+      </div>
+    </section>
+    <div class="container">
+      <h2 class="event-title">Auto Maquillaje</h2>
+    </div>
+
+    <section id="eventos" class="event-list">
+      <div class="container">
+        <article class="event">
+          <figure class="event-imageContainer">
+            <img class="event-image" src="imagen/event-image.jpeg" width="300" />
+          </figure>
+          <div class="event-detail">
+            <h3 class="event-title"> AutoMaquillaje</h3>
+            <p class="event-description">Cursos de maquillajes online con profesores certificados</p>
+            <a class="event-url" href="https://www.youtube.com/watch?v=Xk1OPWT_6yw" target="_blank">Ver información</a>
+          </div>
+        </article>
+        <article class="event">
+          <figure class="event-imageContainer">
+            <video class="html-video" src="video/maquillaje_1.mp4" width="1280" height="720"controls></video>
+            <!-- <img class="event-image" src="imagen/brochas.jpeg" width="300" /> -->
+          </figure>
+        <div class="event-detail">
+          <h3 class="event-title">Limpieza de brochas</h3>
+          <p class="event-description">Todo sobre el cuidado de las brochas</p>
+          <a class="event-url" href="https://www.youtube.com/watch?v=Xk1OPWT_6yw" target="_blank">Ver video</a>
+        </div>
+      </article>
+  </section>
+  <section id="eventos" class="event-list">
+    <div class="container">
+      <article class="event">
+        <figure class="event-imageContainer">
+          <div class="flexible-video">
+            <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/FXSq3ek-T5w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>"
+          </div>
+          <!-- <img class="event-image" src="imagen/event-image.jpeg" width="300" /> -->
+        </figure>
+        <div class="event-detail">
+          <h3 class="event-title"> AutoMaquillaje</h3>
+          <p class="event-description">Cursos de maquillajes online con profesores certificados</p>
+          <a class="event-url" href="https://www.youtube.com/watch?v=Xk1OPWT_6yw" target="_blank">Ver información</a>
+        </div>
+      </article>
+      <article class="event">
+        <figure class="event-imageContainer">
+          <img class="event-image" src="imagen/brochas.jpeg" width="300" />
+        </figure>
+      <div class="event-detail">
+        <h3 class="event-title">Limpieza de brochas</h3>
+        <p class="event-description">Todo sobre el cuidado de las brochas</p>
+        <a class="event-url" href="https://www.youtube.com/watch?v=Xk1OPWT_6yw" target="_blank">Ver video</a>
+      </article>
+    </div>
+  </section>
+    <section id="contacto" class="contact">
+      <div class="container">
+        <form class="email">
+          <h3> ¿Creamos algo juntos? </h3>
+          <input type="text" placeholder="Dejame tu email" id="email">
+          <button class="email-submit" type="submit">Enviar</button>
+        </form>
+        <div class="social">
+          <a href="www.twitter.com/nicoleequijada" class="social-link twitter"></a>
+          <a href="www.facebook.com/nicoleQuijada" class="social-link facebook"></a>
+          <a href="www.github.com/nicoleequijada" class="social-link github"></a>
+          <a href="www.instagram.com/nicoleequijada" class="social-link instagram"></a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div>
+          <p><small> Curso de Desarrollo web online 2018 </small></p><img src="imagen/Nicole-logo.png" alt="Nico" width="70px" heigh="70px"/>
+        </div>
+        <div>
+          <p><small>Desinged with ❤️ <a href="https://twitter.com">@nicoleequijada</a></small></p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      // console.log('Hola Mundo');
+      const ipad = window.matchMedia('screen and (max-width:767px)')
+      const menu= document.querySelector('.menu');
+      // console.log('.menu');
+      const burgerButton= document.querySelector('#burger-menu');
+      // console.log(burgerButton)
+
+      ipad.addListener(validation)
+
+      function validation(event){
+        if(event.matches){
+          burgerButton.addEventListener('click', hideShow)
+        }else{
+            burgerButton.removeEventListener('click', hideShow)
+        }
+      }
+
+
+      function hideShow(){
+        if (menu.classList.contains('is-active')){
+          menu.classList.remove('is-active');
+        }else{
+          menu.classList.add('is-active');
+        }
+      }
+
+    </script>
+  </body>
+</html>
