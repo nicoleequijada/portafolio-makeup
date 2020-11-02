@@ -39,7 +39,7 @@ h3,
 h4,
 h5,
 h6{
-  font-family: Tajawal;
+  font-family: 'Raleway', sans-serif;
   font-weight: normal;
 }
 h1{
@@ -56,10 +56,11 @@ h1 strong{
 h2{
   color:#780c0c;
   text-transform: uppercase;
-  font-family: monospace;
-  font-weight: bold;
+  font-family: 'Open Sans Condensed', sans-serif;
+  /*font-weight: bold;*/
   font-size: 24px;
   margin-bottom: 40px;
+  letter-spacing: 5px;
 }
 
 .hero{
@@ -144,7 +145,7 @@ h2{
   font-family: cursive;
 }
 .project-title{
-  font-family: Tajawal;
+  font-family: 'Raleway', sans-serif;
   text-transform: capitalize;
   margin-top: 0;
   margin-bottom: 10px;
