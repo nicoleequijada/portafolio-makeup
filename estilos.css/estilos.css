@@ -136,13 +136,13 @@ h2{
 .project-date,
 .project-url{
   margin: 10px 0;
+  font-family: arial;
 }
 .project-description{
-  font-family: arial;
-  font-size: 20px;
-}
-.project strong{
-  font-family: cursive;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  justify-content: center;
+
 }
 .project-title{
   font-family: 'Raleway', sans-serif;
@@ -280,7 +280,7 @@ figure {
   text-decoration: none;
 }
 .contact{
-  background-color: #b35f5f;
+  background-color: #ffb3cd;
   color:white;
   height: 150px;
   display: flex;
@@ -293,23 +293,41 @@ figure {
 }
 .social-link{
   display: inline-block;
-  width: 50px;
+ /* width: 50px;
   height: 50px;
   margin: 0 10px;
-  background-size: 50px 50px;
+  background-size: 50px 50px;*/
+  object-fit: cover;
+  background-repeat: no-repeat;
 
 }
 .social-link.twitter{
-  background-image: url('../imagen/logotw.jpg');
+  background-image: url('../imagen/twitter.png');
+  width: 60px;
+  height: 60px;
+  margin: 0 10px;
+  background-size: 60px 60px;
+
 }
 .social-link.facebook{
-  background-image: url('../imagen/facebook.jpg');
+  background-image: url('../imagen/facebook.png');
+  width: 60px;
+  height: 60px;
+  /*margin: 0 10px;*/
+  background-size: 60px 60px;
 }
 .social-link.github{
   background-image: url('../imagen/github.png');
+  width: 75px;
+  height: 75px;
+  background-size: 75px 75px;
 }
 .social-link.instagram{
-  background-image: url('../imagen/instagram.jpg');
+  background-image: url('../imagen/instagram.png');
+  width: 50px;
+  height: 50px;
+  /*margin: 0 10px;*/
+  background-size: 50px 50px;
 }
 
 .form-email input{
