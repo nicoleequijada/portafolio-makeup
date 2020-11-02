@@ -66,20 +66,44 @@ h2{
   font-family: 'Bellota', cursive;
   height: 300px;
   /*background-image: url('../imagen/Nicole-Andrea.jpg');*/
-  background-color: #b35f5f;
-  /*background-size: 250px 300px;*/
+  background-color: #ffb3cd;
+    /*background-size: 250px 300px;*/
   /*background-repeat: no-repeat;*/
   /*background-position-x: right;*/
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+   border: 2px gray solid;
 
 
 }
 .hero-image{
   object-fit: cover;
+  border-radius: 5px;
+  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
 }
+
+.fadeIn{
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+
 .portfolio{
   background: #fafafa;
   padding: 20px;
@@ -162,8 +186,9 @@ figure {
   margin: 0;
 }
 .header a {
-  color: pink;
+  color: #ffb3cd;
   text-decoration: none;
+
 }
 .menu{
   background: white;
