@@ -171,9 +171,9 @@
 
       function validation(event){
         if(event.matches){
-          burgerButton.addEventListener('click touchstar', hideShow)
+          burgerButton.addEventListener('click', hideShow())
         }else{
-            burgerButton.removeEventListener('click touchstar', hideShow)
+            burgerButton.removeEventListener('click', hideShow())
         }
       }
 
